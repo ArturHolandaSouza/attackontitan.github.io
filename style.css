@@ -203,7 +203,7 @@ footer {
 
 .modal-content {
     width: 25vw;
-    height: 70vh;
+    height: 80vh;
     color: #0d0d0d;
     border-radius: 12px;
     display: flex;
@@ -223,10 +223,12 @@ footer {
 
 .character-details {
     font-family: "Manufacturing Consent", system-ui;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: lighter;
     color: #000;
     font-weight: 900;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: white;
 }
 media (max-width: 600px) {
     header {
