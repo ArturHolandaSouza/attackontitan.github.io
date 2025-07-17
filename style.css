@@ -232,11 +232,15 @@ footer {
 }
 media (max-width: 600px) {
     header {
-        margin-bottom: 150px;
+        margin-bottom: 250px;
     }
     h2 {
         margin-top: 150px;
         margin-bottom: 150px;
+    }
+    .modal-content {
+    width: 100vw;
+    height: 100vh;
     }
 }
 
