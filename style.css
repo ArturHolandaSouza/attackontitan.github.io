@@ -55,9 +55,9 @@ header {
 }
 
 .social-media {
-    width: 130px;
+    width: 70vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     
 }
 
