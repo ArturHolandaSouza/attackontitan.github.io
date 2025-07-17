@@ -226,7 +226,7 @@ footer {
     color: #000;
     font-weight: 900;
 }
- media (max-width: 400px){
+ media (max-width: 600px){
      header {
          diplay: flex;
          flex-direction: column;
