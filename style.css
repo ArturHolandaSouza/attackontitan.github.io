@@ -24,6 +24,7 @@ header {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 1000px;
+    background-color: black;
 }
 
 .logo {
