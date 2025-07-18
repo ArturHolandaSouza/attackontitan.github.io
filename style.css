@@ -54,6 +54,7 @@ header {
     color:#d2c4ae;
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
+    background-color: black;
 }
 
 .social-media {
