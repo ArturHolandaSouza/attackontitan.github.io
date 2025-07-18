@@ -234,9 +234,11 @@ footer {
     font-weight: 900;
 }
 @media (max-width: 600px) {
+    
     header {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        margin-left: 30vw;
         margin-bottom: 50px;
         row-gap: 20px;
     }
