@@ -241,6 +241,7 @@ footer {
     font-weight: 900;
 }
 @media (max-width: 600px) {
+    
     .main-container {
         margin-top: 300px;
         padding: 0 0;
@@ -252,7 +253,7 @@ footer {
         row-gap: 20px;
     }
     h2 {
-        visibility: hidden;
+        display: none;
     }
     .modal-content {
         width: 100vw;
@@ -262,7 +263,7 @@ footer {
         width: 100vw;
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     .character-details {
         -webkit-text-stroke-color: white;
