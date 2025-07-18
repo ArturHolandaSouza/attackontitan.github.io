@@ -28,10 +28,12 @@ header {
     flex-wrap: wrap;
     background-color: black;
 }
+
 .options {
     display: flex;
     column-gap: 20px;
 }
+
 .logo {
     width: 250px;
     height: 100%;
@@ -58,6 +60,10 @@ header {
     -webkit-text-stroke-width: 0.3px;
     -webkit-text-stroke-color: black;
     background-color: black;
+}
+
+.logo-text::before {
+    content: ">";
 }
 
 .social-media {
