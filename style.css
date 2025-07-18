@@ -63,7 +63,7 @@ header {
 }
 
 .logo-text::before {
-    content: ">";
+    content: "    >";
 }
 
 .social-media {
