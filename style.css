@@ -69,7 +69,7 @@ header {
 .social-media {
     width: 70vw;
     display: flex;
-    justify-content: start;
+    justify-content: end;
     column-gap: 20px;
 }
 
