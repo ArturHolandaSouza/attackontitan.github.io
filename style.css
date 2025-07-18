@@ -58,7 +58,6 @@ header {
     width: 70vw;
     display: flex;
     justify-content: start;
-    
 }
 
 i {
@@ -244,6 +243,11 @@ media (max-width: 600px) {
     width: 100vw;
     height: 100vh;
     }
+    .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 }
 
     
