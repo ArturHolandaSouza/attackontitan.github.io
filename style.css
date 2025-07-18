@@ -26,10 +26,12 @@ header {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-bottom: 50px;
     background-color: black;
 }
-
+.options {
+    display: flex;
+    column-gap: 20px;
+}
 .logo {
     width: 250px;
     height: 100%;
@@ -93,7 +95,6 @@ h2 {
     margin-bottom: 20px;
     color:#d2c4ae;
     font-weight: 900;
-    margin-bottom: 50px;
     background-color: black;
 }
 
@@ -235,10 +236,7 @@ footer {
 }
 @media (max-width: 600px) {
     .main-container {
-        margin-top: 500px;
-    }
-    header {
-        margin-bottom: 50px;
+        margin-top: 300px;
     }
     .options {
         display: grid;
