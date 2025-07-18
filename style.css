@@ -237,12 +237,12 @@ footer {
     .main-container {
         margin-top: 1000px;
     }
-    
-    
     header {
+        margin-bottom: 50px;
+    }
+    .options {
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        margin-bottom: 50px;
         margin-left: 30vw;
         row-gap: 20px;
     }
