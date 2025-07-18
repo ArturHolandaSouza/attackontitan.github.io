@@ -11,6 +11,8 @@ body {
     background-image: url('./assets/Background.jpg');
     background-size: auto;
     background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 a {
@@ -133,7 +135,7 @@ h2 {
     color:#000;
     font-size: 2rem;
     font-weight: 900;
-    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: white;
 }
 
@@ -229,7 +231,7 @@ footer {
     font-weight: lighter;
     color: #000;
     font-weight: 900;
-    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-width: 0.1px;
     -webkit-text-stroke-color: white;
 }
 media (max-width: 600px) {
@@ -248,7 +250,13 @@ media (max-width: 600px) {
     width: 100%;
     display: flex;
     justify-content: center;
-}
+    }
+    .character-details {
+    -webkit-text-stroke-width: 0.3px;
+    }
+    .character-name {
+    -webkit-text-stroke-width: 0.3px;
+    }
 }
 
     
