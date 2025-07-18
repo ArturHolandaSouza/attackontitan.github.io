@@ -235,6 +235,7 @@ footer {
 @media (max-width: 600px) {
     header {
         margin-bottom: 50px;
+        row-gap: 20px;
     }
     h2 {
         margin-top: 50px;
@@ -257,10 +258,6 @@ footer {
     .character-name {
         -webkit-text-stroke-color: white;
         -webkit-text-stroke-width: 0.3px;
-    }
-    .options {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
     }
 }
 
