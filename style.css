@@ -251,9 +251,11 @@ footer {
     margin-bottom: 50px;
     }
     .character-details {
+    -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.3px;
     }
     .character-name {
+    -webkit-text-stroke-color: white;
     -webkit-text-stroke-width: 0.3px;
     }
 }
