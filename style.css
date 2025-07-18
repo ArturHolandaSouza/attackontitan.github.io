@@ -238,8 +238,7 @@ footer {
         row-gap: 20px;
     }
     h2 {
-        margin-top: 50px;
-        margin-bottom: 50px;
+        visibility: hidden;
     }
     .modal-content {
         width: 100vw;
