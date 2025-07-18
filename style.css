@@ -73,7 +73,7 @@ i {
 }
 
 i:hover {
-    color: #000;
+    color: #ffeccf;
 }
 
 .main-container {
@@ -235,6 +235,8 @@ footer {
 @media (max-width: 600px) {
     header {
         margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
     h2 {
         margin-top: 50px;
