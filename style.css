@@ -58,6 +58,7 @@ header {
     width: 70vw;
     display: flex;
     justify-content: start;
+    column-gap: 20px;
 }
 
 i {
